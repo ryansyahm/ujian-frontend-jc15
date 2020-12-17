@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "email": "fikriansyah51@gmail.com",
+      "password": "bTi728ne87_",
+      "id": 1
+    },
+    {
+      "email": "1231@gmail.com",
+      "password": "bTi728ne87_",
+      "id": 2
+    },
+    {
+      "email": "fikriansyah51@gmail.com",
+      "password": "bTi728ne87",
+      "id": 3
+    },
+    {
+      "email": "yuhuu@gmail.com",
+      "password": "bTi728ne87",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryID": 1,
+      "name": "banana",
+      "stock": 10,
+      "price": 15000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/21DejQuoT2L.jpg"
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "name": "semongko",
+      "stock": 0,
+      "price": 20000,
+      "image": "https://www.posciety.com/file/manfaat-buah-semangka-dan-kulit-semangka-posciety.jpg"
+    },
+    {
+      "id": 3,
+      "categoryID": 2,
+      "name": "kol",
+      "stock": 8,
+      "price": 8000,
+      "image": "https://cdn.idntimes.com/content-images/community/2019/06/updated-roasted-cauliflower-1-of-16-03c38e2e3d71c36758502a07d53675f9.jpg"
+    },
+    {
+      "id": 4,
+      "categoryID": 2,
+      "name": "cabe",
+      "stock": 20,
+      "price": 50000,
+      "image": "https://ecs7.tokopedia.net/img/cache/700/attachment/2020/8/15/-1/-1_445dbe08-baad-44c0-9fdd-1a662e294fb9.jpg"
+    },
+    {
+      "id": 5,
+      "categoryID": 3,
+      "name": "sapu",
+      "stock": 10,
+      "price": 25000,
+      "image": "https://review.ralali.com/wp-content/uploads/2019/12/Maspion-Sapu-Lantai.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "name": "kol",
+      "categoryID": 2,
+      "image": "https://cdn.idntimes.com/content-images/community/2019/06/updated-roasted-cauliflower-1-of-16-03c38e2e3d71c36758502a07d53675f9.jpg",
+      "qty": 7,
+      "userID": 1,
+      "price": 8000,
+      "id": 1
+    },
+    {
+      "name": "semongko",
+      "categoryID": 1,
+      "image": "https://www.posciety.com/file/manfaat-buah-semangka-dan-kulit-semangka-posciety.jpg",
+      "qty": 2,
+      "userID": 1,
+      "price": 20000,
+      "id": 2
+    }
+  ],
+  "transaction": [
+    {
+      "date": "17/11/2020",
+      "total": 36000,
+      "items": [
+        {
+          "name": "semongko",
+          "categoryID": 1,
+          "image": "https://www.posciety.com/file/manfaat-buah-semangka-dan-kulit-semangka-posciety.jpg",
+          "qty": 1,
+          "userID": 1,
+          "price": 20000,
+          "id": 1
+        },
+        {
+          "name": "kol",
+          "categoryID": 2,
+          "image": "https://cdn.idntimes.com/content-images/community/2019/06/updated-roasted-cauliflower-1-of-16-03c38e2e3d71c36758502a07d53675f9.jpg",
+          "qty": 2,
+          "userID": 1,
+          "price": 8000,
+          "id": 2
+        }
+      ],
+      "userID": 1,
+      "id": 1
+    },
+    {
+      "date": "17/11/2020",
+      "total": 296000,
+      "items": [
+        {
+          "name": "kol",
+          "categoryID": 2,
+          "image": "https://cdn.idntimes.com/content-images/community/2019/06/updated-roasted-cauliflower-1-of-16-03c38e2e3d71c36758502a07d53675f9.jpg",
+          "qty": 2,
+          "userID": 3,
+          "price": 8000,
+          "id": 3
+        },
+        {
+          "name": "semongko",
+          "categoryID": 1,
+          "image": "https://www.posciety.com/file/manfaat-buah-semangka-dan-kulit-semangka-posciety.jpg",
+          "qty": 14,
+          "userID": 3,
+          "price": 20000,
+          "id": 4
+        }
+      ],
+      "userID": 3,
+      "id": 2
+    }
+  ]
+}
